@@ -23,6 +23,7 @@ Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
 2. Crie seu banco de dados no seu servidor local (XAMP, Laragon, etc).
 
 3. Após acriação, abra o arquivo ```application/config/database.php``` e coloque as informações do seu banco de dados.
+
         ```sh
         'hostname' => 'localhost',
         'username' => 'seu-usuario',  

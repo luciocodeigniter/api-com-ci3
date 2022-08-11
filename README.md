@@ -1,11 +1,10 @@
-###################
-API Rest com Codeigniter 3 na versão 3.1.13!
-###################
 
-Esse é um pequeno projeto realizado com Codeigniter 3 na versão 3.1.13, com o propósito de criar um API Rest para a Gestão de Impressoras.
+# API Rest com Codeigniter 3 na versão 3.1.13
+
+### Esse é um pequeno projeto realizado com Codeigniter 3 na versão 3.1.13, com o propósito de criar um API Rest para a Gestão de Impressoras.
 
 *******************
-Requerimentos do servidor
+### Requerimentos do servidor
 *******************
 
 - PHP versão 5.6 ou mais recente é recomendado. Testado na versão PHP 8.1.4.
@@ -13,7 +12,7 @@ Requerimentos do servidor
 
 
 *********
-Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
+### Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
 *********
 
 1. Abra o arquivo ```application/config/config.php``` e altere as propriedades conforme a seguir:
@@ -44,7 +43,7 @@ Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
 
 
 *********
-Consumindo os endpoints. Por favor tenha em mente que as rotas da API foram criadas para dar suporte ao roteamento REST-ful. Para enviar requisições ```POST, PUT ou DELETE```, você poderá utilizar o [Postman](https://www.postman.com/downloads/).
+### Consumindo os endpoints. Por favor tenha em mente que as rotas da API foram criadas para dar suporte ao roteamento REST-ful. Para enviar requisições ```POST, PUT ou DELETE```, você poderá utilizar o [Postman](https://www.postman.com/downloads/).
 *********
 
 

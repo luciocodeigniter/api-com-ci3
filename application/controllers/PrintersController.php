@@ -90,7 +90,7 @@ class PrintersController extends CI_Controller
             return $this->failValidationError();
         }
 
-        // get the safe input request as a object for better manipulation
+        // get the safe input request 
         $safeInputRequest = $this->input->post(xss_clean: true); // XSS Clean
 
         // create de printers object
@@ -175,7 +175,7 @@ class PrintersController extends CI_Controller
             return $this->failNotFound();
         }
 
-        // update de printer
+        // delete de printer
         $this->printerModel->delete($printer->id);
 
         return $this->respond(statusCode: 204); // 204 => no content status

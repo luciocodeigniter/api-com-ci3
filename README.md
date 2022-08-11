@@ -23,15 +23,16 @@ Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
 2. Crie seu banco de dados no seu servidor local (XAMP, Laragon, etc).
 
 3. Após acriação, abra o arquivo ```application/config/database.php``` e coloque as informações do seu banco de dados.
+        ```sh
+        'hostname' => 'localhost',
+        'username' => 'seu-usuario',  
+        'password' => 'sua-senha',  
+        'database' => 'seu-banco',  
         ```
-        'hostname' => 'localhost',\
-        'username' => 'seu-usuario',\
-        'password' => 'sua-senha',\ 
-        'database' => 'seu-banco', \
-        ```
+        
 
 4. Precisamos criar no seu banco de dados as tabelas ```migrations e printers```, portanto, execute a seguinte URL no seu navegador:
-        ```
+        ```sh
         http://seu-site-lindo/migrate
         ```
 
@@ -45,32 +46,32 @@ Consumindo os endpoints. Por favor tenha em mente que as rotas da API foram cria
 
 Para listar as impressoras - faça uma requisição ```GET``` para a seguinte rota:
 
-```
+```sh
 http://seu-site-lindo/api/printers
 ```
 
 
 Para recuperar uma determinada impressora - faça uma requisição ```GET``` para a seguinte rota:
 
-```
+```sh
 http://seu-site-lindo/api/printers/1
 ```
 
 Para criar uma impressora - faça uma requisição ```POST``` para a seguinte rota:
 
-```
+```sh
 http://seu-site-lindo/api/printers
 ```
 
 Para atualizar uma determinada impressora - faça uma requisição ```PUT``` para a seguinte rota:
 
-```
+```sh
 http://seu-site-lindo/api/printers/1
 ```
 
 Para excluir uma determinada impressora - faça uma requisição ```DELETE``` para a seguinte rota:
 
-```
+```sh
 http://seu-site-lindo/api/printers/1
 ```
 

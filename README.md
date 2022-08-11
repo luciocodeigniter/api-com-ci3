@@ -18,21 +18,21 @@ Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
 
 1. Abra o arquivo ```application/config/config.php``` e altere as propriedades conforme a seguir:
 
-        ```
+        
         - $config['base_url'] = 'http://seu-site-lindo/';
         - $config['index_page'] = '';
-        ```
+        
 
 2. Crie seu banco de dados no seu servidor local (XAMP, Laragon, etc).
 
 3. Após acriação, abra o arquivo ```application/config/database.php``` e coloque as informações do seu banco de dados.
 
-        ```
+        
         'hostname' => 'localhost',
         'username' => 'seu-usuario',  
         'password' => 'sua-senha',  
         'database' => 'seu-banco',  
-        ```
+        
         
 
 4. Precisamos criar no seu banco de dados as tabelas ```migrations e printers```, portanto, execute a seguinte URL no seu navegador:

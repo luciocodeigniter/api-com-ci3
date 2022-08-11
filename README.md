@@ -36,7 +36,7 @@
 
 4. Precisamos criar no seu banco de dados as tabelas ```migrations e printers```, portanto, execute a seguinte URL no seu navegador:
 
-        ```sh
+        ```
         http://seu-site-lindo/migrate
         ```
 

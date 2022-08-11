@@ -18,8 +18,8 @@
 1. Abra o arquivo ```application/config/config.php``` e altere as propriedades conforme a seguir:
 
         
-        - $config['base_url'] = 'http://seu-site-lindo/';
-        - $config['index_page'] = '';
+        $config['base_url'] = 'http://seu-site-lindo/';
+        $config['index_page'] = '';
         
 
 2. Crie seu banco de dados no seu servidor local (XAMP, Laragon, etc).
@@ -35,6 +35,7 @@
         
 
 4. Precisamos criar no seu banco de dados as tabelas ```migrations e printers```, portanto, execute a seguinte URL no seu navegador:
+
         ```sh
         http://seu-site-lindo/migrate
         ```

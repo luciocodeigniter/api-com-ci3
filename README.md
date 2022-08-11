@@ -1,7 +1,7 @@
 
 # API Rest com Codeigniter 3 na versão 3.1.13
 
-### Esse é um pequeno projeto realizado com Codeigniter 3 na versão 3.1.13, com o propósito de criar um API Rest para a Gestão de Impressoras.
+### Esse é um pequeno projeto realizado com Codeigniter 3 na versão 3.1.13, com o propósito de criar uma API Rest para a Gestão de Impressoras.
 
 *******************
 ### Requerimentos do servidor

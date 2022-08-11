@@ -36,9 +36,8 @@
 
 4. Precisamos criar no seu banco de dados as tabelas ```migrations e printers```, portanto, execute a seguinte URL no seu navegador:
 
-        ```
         http://seu-site-lindo/migrate
-        ```
+        
 
 5. PRONTO! Já estamos prontos para consumir os endpoints da API.
 

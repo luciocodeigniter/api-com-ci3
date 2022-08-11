@@ -24,10 +24,10 @@ Para as coisas funcionarem adequadamente, vamos seguir alguns passos:
 
 3. Após acriação, abra o arquivo ```application/config/database.php``` e coloque as informações do seu banco de dados.
         ```
-        'hostname' => 'localhost',  
-        'username' => 'seu-usuario',  
-        'password' => 'sua-senha',  
-        'database' => 'seu-banco',  
+        'hostname' => 'localhost',</br>
+        'username' => 'seu-usuario',</br>
+        'password' => 'sua-senha',</br> 
+        'database' => 'seu-banco', </br>
         ```
 
 4. Precisamos criar no seu banco de dados as tabelas ```migrations e printers```, portanto, execute a seguinte URL no seu navegador:
